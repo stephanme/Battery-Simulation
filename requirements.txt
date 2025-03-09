@@ -3,4 +3,7 @@ pandas
 matplotlib
 
 # For exporting data from openhab:
-influxdb
+#influxdb
+
+# For exporting data from prometheus
+prometheus_api_client
