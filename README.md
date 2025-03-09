@@ -4,9 +4,10 @@ This software simulates batteries for your PV system and calculates how much you
 
 All calculations are done in [Simulate_Battery.ipynb](Simulate_Battery.ipynb)
 
-Cloned from https://github.com/stephanme/Battery-Simulation and adapted:
+Forked from https://github.com/stephanme/Battery-Simulation and adapted:
 - export energy data from Prometheus and convert into power data
-- sample data for 1y, battery sizes 5 .. 13 kWh
+- sample data for 1y, battery sizes: 7, 10, 14, 17
+- allow `max_discharging_power` and `max_charging_power` for each battery size
 - minor fixes
 
 ## Introduction
